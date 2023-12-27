@@ -6,6 +6,7 @@ import { reserveDragon, cancelReservation } from '../stores/dragonSlice'; // Adj
 const DragonItem = ({ dragon }) => {
   const dispatch = useDispatch();
 
+  console.log(reserveDragon);
   const handleReserve = () => {
     dispatch(reserveDragon(dragon.id));
   };
