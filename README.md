@@ -8,6 +8,6 @@ npx create-react-app ____
 cd ____
 npm i @reduxjs/toolkit
 npm i react-redux 
-
+npm install react-router-dom
 
 
